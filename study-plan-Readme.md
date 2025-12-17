@@ -32,15 +32,15 @@
 > **목표**: 프로젝트 없이 TypeScript 문법만 집중 학습
 
 ### ✅ Day 1: 기본 타입
-- [ ] TypeScript 설치 완료
-- [ ] 기본 타입 이해 (string, number, boolean)
-- [ ] 배열과 객체 타입
-- [ ] any vs unknown
-- [ ] 함수 타입 정의
-- [ ] Optional 매개변수와 기본값
+- [x] TypeScript 설치 완료
+- [x] 기본 타입 이해 (string, number, boolean)
+- [x] 배열과 객체 타입
+- [x] any vs unknown
+- [x] 함수 타입 정의
+- [x] Optional 매개변수와 기본값
 
 ### ✅ Day 2: 인터페이스와 타입
-- [ ] interface 선언
+- [x] interface 선언
 - [ ] type alias
 - [ ] Optional과 Readonly
 - [ ] Union과 Intersection
