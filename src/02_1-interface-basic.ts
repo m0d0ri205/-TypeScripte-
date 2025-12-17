@@ -123,3 +123,31 @@ console.log(result.token);
 // ============================================
 // 3. 중첩된 interface
 // ============================================
+
+interface Address {
+    city : string;
+    street : string;
+    zipCode : string;
+}
+
+interface Company {
+    name : string;
+    address : Address; // 중첩된 interface
+    employees : number;
+}
+
+const myCompany : Company = {
+    name : "감자 고구마 농장",
+    address : {
+        city : "서울",
+        street : "강남대로 1234",
+        zipCode : "06000"
+    },
+    employees : 50
+};
+
+// console.log('회사 : ${myCompany.name}, \n 위치: ${myCompany.address.city}');
+// 이게 인식이 안되네
+
+console.log(`회사: ${myCompany.name}`);
+console.log(`위치: ${myCompany.address.city}`);
