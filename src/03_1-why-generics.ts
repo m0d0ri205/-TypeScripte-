@@ -1,10 +1,10 @@
-// src/03-why-generics.ts
+// src/03_1-why-generics.ts
 
 // ============================================
 // 문제: 숫자 배열용 함수
 // ============================================
 
-function getFirstNumber(arr: number[]): number {
+function getFirstNumber(arr: number[]): number | undefined {
   return arr[0];
 }
 
@@ -16,7 +16,7 @@ console.log(first);
 // 문제: 문자열 배열도 필요해요!
 // ============================================
 
-function getFirstString(arr: string[]): string {
+function getFirstString(arr: string[]): string | undefined {
   return arr[0];
 }
 
@@ -26,3 +26,6 @@ console.log(firstName);
 
 // 🤦 코드 중복이 너무 많아요!
 // 숫자용, 문자열용, 불린용... 계속 만들어야 하나요?
+// 이러한 giveBack(사과) → 사과 , giveBack(연필) → 연필 , giveBack(숫자) → 숫자 함수를 다 따로 만들어야 할까?
+
+// 이를 숫자만 글자만 식으로 다 만들지 않는 방법을 생각하자! 해서 만들어진게 제레릭!!
