@@ -1,0 +1,17 @@
+
+const hello = () => "hi";
+///////////////////////////////
+// test
+///////////////////////////////
+
+class Block {
+    constructor(private data: string) {}
+    static hello() {
+        return "hi";
+    }
+}
+///////////////////////////////
+// function test
+///////////////////////////////
+
+//localStorage.getItem();
