@@ -3,10 +3,14 @@ import { exit } from "node:process";
 
 //localStorage
 
+// init({
+//     url: "true"
+// })
+
+// exit(1);
+
+// localStorage.clear();
+
 init({
-    url: "true"
+    url: "https://example.com"
 })
-
-exit(1);
-
-localStorage.clear();

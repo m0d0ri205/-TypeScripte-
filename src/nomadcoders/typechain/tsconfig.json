@@ -7,8 +7,9 @@
         "rootDir": "./src",
         "lib": ["ES6", "dom"],
         "strict": true,
-        // "esModuleInterop": true,
-        // "skipLibCheck": true,
-        // "forceConsistentCasingInFileNames": true
+        "allowJs": true,
+        "esModuleInterop": true, 
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
     }
 }
