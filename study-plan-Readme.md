@@ -40,7 +40,7 @@
 - [x] Optional 매개변수와 기본값
 
 ### ✅ Day 2: 인터페이스와 타입
-- [x] interface 선언
+- [ ] interface 선언
 - [ ] type alias
 - [ ] Optional과 Readonly
 - [ ] Union과 Intersection

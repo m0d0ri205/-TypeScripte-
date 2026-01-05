@@ -38,8 +38,8 @@ class Blockchain {
     this.blocks.push(newBlock);
   }
   public getBlocks() {
-    // return [...this.blocks];
-    return this.blocks;
+    // return this.blocks;
+    return [...this.blocks]; // 배열 형태로 해서 새로운 블록이 와서 해킹 시도하려고 해도 막음.
   }
 }
 
@@ -48,6 +48,7 @@ const blockchain = new Blockchain();
 blockchain.addBlock("첫 번째 블록");
 blockchain.addBlock("두 번째 블록");
 blockchain.addBlock("세 번째 블록");
+blockchain.addBlock("네 번째 블록");
 
 blockchain.getBlocks().push(new Block("hacking test", 11111, "hacking data"));
 

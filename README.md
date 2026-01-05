@@ -1,4 +1,12 @@
 # -TypeScripte-
+### 실행
+- npx ts-node src/04-utility-partial.ts
+
+### 빌드 후 실행
+- npx tsc src/04-utility-partial.ts --outDir dist --skipLibCheck && node dist/04-utility-partial.js
+
+
+
 ### ✅ Day 1: 기본 타입
 - [x] TypeScript 설치 완료
 - [x] 기본 타입 이해 (string, number, boolean)
@@ -30,3 +38,11 @@
 - [ ] Exclude, Extract
 - [ ] NonNullable
 - [ ] ReturnType, Parameters
+
+### ✅ Day 5: 고급 타입
+- [ ] 조건부 타입 (Conditional Types)
+- [ ] infer 키워드
+- [ ] Mapped Types
+- [ ] 분산 조건부 타입
+- [ ] Template Literal Types
+- [ ] 실전 DTO 패턴
