@@ -55,3 +55,13 @@
 - [ ] 인터페이스 구현 (implements)
 - [ ] getter/setter
 - [ ] 데코레이터 기초 (experimentalDecorators)
+
+
+### ✅ Day 7: 모듈과 선언 파일
+- [ ] export/import 문법
+- [ ] Named vs Default export
+- [ ] .d.ts 파일 역할
+- [ ] declare 키워드
+- [ ] Declaration merging
+- [ ] @types 패키지 이해
+- [ ] Week 0 총 복습
