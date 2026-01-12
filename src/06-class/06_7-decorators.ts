@@ -155,9 +155,4 @@ class Product {
 const product = new Product(1000, 10);
 console.log(product.price);  // 1000
 
-
-
-const product2 = new Product(2000, 10);
-console.log(product.price);  // 1000
-
 // product.price = -500;  // ❌ 에러! "price는 0보다 작을 수 없습니다!"
