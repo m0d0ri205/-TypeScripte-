@@ -6,7 +6,9 @@
       "Bash(npx ts-node:*)",
       "WebFetch(domain:ctf.mf.grsu.by)",
       "Bash(curl:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(npm init -y)",
+      "Bash(npx prisma init:*)"
     ]
   }
 }
