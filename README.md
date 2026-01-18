@@ -68,9 +68,9 @@
 
 
 ### ✅ Day 8: 프로젝트 초기 설정
-- [ ] Node.js + Express 프로젝트 생성
-- [ ] TypeScript 설정 (tsconfig.json)
-- [ ] ESLint + Prettier 설정
-- [ ] 폴더 구조 설계
-- [ ] 환경 변수 설정 (.env)
-- [ ] 개발 스크립트 설정 (nodemon, tsx)
+- [x] Node.js + Express 프로젝트 생성
+- [x] TypeScript 설정 (tsconfig.json)
+- [x] ESLint + Prettier 설정
+- [x] 폴더 구조 설계
+- [x] 환경 변수 설정 (.env)
+- [X] 개발 스크립트 설정 (nodemon, tsx)
